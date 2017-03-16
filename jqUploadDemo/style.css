@@ -1,0 +1,61 @@
+/*修改文件上传模块样式*/
+.file{
+    position: relative;
+    display: inline-block;
+    /*background: #D0EEFF;*/
+    /*border: 1px solid #99D3F5;*/
+    border-radius: 4px;
+    padding: 4px 12px;
+    /*overflow: hidden;*/
+    color: #1E88C7;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 20px;
+    font-size: 12px;
+    z-index: 55;
+}
+.file input {
+    position: absolute;
+    font-size: 10px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    width: 100px;
+}
+.file:hover {
+    cursor: pointer;
+}
+
+#sendFile{
+    font-size: 12px;
+    padding: 3px 5px 3px 5px;
+    border:1px solid #eeeeee;
+    border-radius: 3px;
+    /*background: #fff;*/
+    margin-left: 20px;
+}
+#sendFile:hover{
+    background: #cdcdcd;
+}
+.file input:hover{
+    cursor: pointer;
+}
+.showFileName,.showFileName a{
+    font-size: 12px;
+    text-overflow: ellipsis;
+}
+.showFileName{
+    margin-left: 10px;
+    width: 140px;
+    word-break: break-all;
+}
+.showFileName a{
+    margin-left: 20px;
+}
+
+.form-file{
+    margin-bottom: 5px;
+}
+.inactive_1{
+    display: none;
+}

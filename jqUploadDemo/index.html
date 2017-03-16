@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>文件上传插件</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="upload_div"></div>
+	<script src="jquery.min.js"></script>
+	<script src="https://cdn.bootcss.com/jquery.form/3.51/jquery.form.min.js"></script>
+	<script type="text/javascript" src="file_upload.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("#upload_div").uploadFile({
+				uploadUrl:'http://www.hupu.com',
+				downloadUrl:'http://www.hupu.com',
+				maxSize: 5
+			})
+		});
+	</script>
+</body>
+</html>
